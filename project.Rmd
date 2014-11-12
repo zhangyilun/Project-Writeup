@@ -1,0 +1,20 @@
+---
+title: "Practical Machine Learning - Writeup"
+author: "Yilun Zhang"
+date: "Sunday, November 09, 2014"
+output: html_document
+---
+
+```{r}
+setwd("F:/Documents/University/3A 2014 WT4 Fall/coursera/Data Science 8 - Practical Machine Learning/Project-Writeup")
+training <- read.csv("pml-training.csv")
+testing <- read.csv("pml-testing.csv")
+```
+
+```{r}
+library(caret)
+```
+
+```{r}
+modFit1 <- train(classe~.,data=training,method="")
+```
