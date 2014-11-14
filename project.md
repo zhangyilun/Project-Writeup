@@ -4,7 +4,6 @@ Sunday, November 09, 2014
 
 
 ```r
-setwd("F:/Documents/University/3A 2014 WT4 Fall/coursera/Data Science 8 - Practical Machine Learning/Project-Writeup")
 training <- read.csv("pml-training.csv")
 testing <- read.csv("pml-testing.csv")
 ```
